@@ -9,4 +9,103 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: #fcfcfc;
+  color: #227c9d;
+}
+
+h1 {
+  text-align: center;
+  font-family: Monospace;
+  margin: 1rem 0 3rem 0;
+  background-color: #227c9d;
+  padding: 2rem 0;
+  color: #fff;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+section {
+  min-width: 20rem;
+  border: thin solid #227c9d;
+  border-radius: 0.3rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section h2,
+section p {
+  text-align: center;
+}
+
+section h3 {
+  margin: 1rem 0;
+  font-family: Monospace;
+  font-size: 3rem;
+}
+
+fieldset {
+  padding-left: 0;
+  padding-right: 0;
+  border: none;
+}
+
+fieldset input {
+  padding: 0.5rem;
+}
+
+fieldset i {
+  margin: 0 0.2rem;
+  padding: 1rem;
+}
+
+fieldset i.add {
+  color: #17c3b2;
+}
+
+fieldset i.subtract {
+  color: #fe6d73;
+}
+
+.reset {
+  border: none;
+}
+
+.reset i {
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.selection span {
+  padding: 1rem;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 300px;
+  width: 300px;
+}
+
+.blank {
+  background-image: url(./images/rock-paper-scissors.png);
+}
+
+.rock {
+  background-image: url(./images/rock.jpeg);
+}
+
+.paper {
+  background-image: url(./images/paper.jpg);
+}
+
+.scissors {
+  background-image: url(./images/scissors.png);
 }
